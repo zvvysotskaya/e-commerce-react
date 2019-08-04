@@ -1,3 +1,4 @@
+The app is to practice React along with Udemy course.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
