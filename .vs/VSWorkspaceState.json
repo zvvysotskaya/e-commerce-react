@@ -1,13 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\collection-item",
+    "\\src\\components\\collection-preview",
     "\\src\\components\\directory",
     "\\src\\components\\menu-item",
-    "\\src\\pages\\homepage"
+    "\\src\\pages",
+    "\\src\\pages\\homepage",
+    "\\src\\pages\\shop"
   ],
-  "SelectedNode": "\\src\\App.js",
+  "SelectedNode": "\\src\\pages\\shop\\shop.data.js",
   "PreviewInSolutionExplorer": false
 }
