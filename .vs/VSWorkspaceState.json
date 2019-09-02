@@ -4,13 +4,13 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\collection-item",
-    "\\src\\components\\collection-preview",
-    "\\src\\components\\directory",
-    "\\src\\components\\menu-item",
-    "\\src\\pages",
-    "\\src\\pages\\homepage",
-    "\\src\\pages\\shop"
+    "\\src\\components\\form-input",
+    "\\src\\components\\header",
+    "\\src\\components\\sign-up",
+    "\\src\\pages\\sign-in-and-sign-up",
+    "\\src\\redux",
+    "\\src\\redux\\user"
   ],
-  "SelectedNode": "\\src\\pages\\shop\\shop.data.js",
+  "SelectedNode": "\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
