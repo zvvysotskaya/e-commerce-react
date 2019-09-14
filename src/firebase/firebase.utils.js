@@ -11,6 +11,33 @@ const config = {
     messagingSenderId: "280007278479",
     appId: "1:280007278479:web:0d3473da756ab1b7"
 };
+export const addCollectionAndDocuments = async (collectionKey, objectToAdd) => {
+    const collectionRef = firestore.collection(collectionKey);
+    const batch = firestore.batch();
+    objectToAdd.forEach(obj => {
+        const newDocRef = collectionRef.doc();
+        batch.set(newDocRef, obj);
+    });
+    return await batch.commit();
+};
+export const convertCollectionsSnapshotToMap = (collections) => {
+    const transformedCollection = collections.docs.map(doc => {
+        const { title, items } = doc.data();
+        return {
+            routeName: encodeURI(title.toLowerCase()),
+            id: doc.id,
+            title,
+            items
+        }
+    });
+    return transformedCollection.reduce((accumalator, collection) => {
+        accumalator[collection.title.toLowerCase()] = collection;
+        return accumalator;
+    }, {}
+        );
+}
+
+
 export const createUserProfileDocument = async (userAuth, additionalData) => {
     if (!userAuth) return;
     //if object exists we query db
