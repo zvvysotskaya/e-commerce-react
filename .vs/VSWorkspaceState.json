@@ -1,15 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\components",
-    "\\src\\components\\cart-dropdown",
-    "\\src\\components\\collection-preview",
-    "\\src\\pages\\checkout",
-    "\\src\\pages\\shop",
-    "\\src\\redux",
-    "\\src\\redux\\cart"
+    ""
   ],
-  "SelectedNode": "\\src\\redux\\cart\\cart.reducer.js",
   "PreviewInSolutionExplorer": false
 }
