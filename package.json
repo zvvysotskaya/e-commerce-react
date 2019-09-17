@@ -15,16 +15,7 @@
     "start": "node server.js",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zvvysotskaya/e-commerce-react2.git"
-  },
-  "author": "Zhanna",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zvvysotskaya/e-commerce-react2/issues"
-  },
-  "homepage": "https://github.com/zvvysotskaya/e-commerce-react2#readme",
+   
   "dependencies": {
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
