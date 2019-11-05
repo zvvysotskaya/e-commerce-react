@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\client",
-    "\\client\\src"
+    "\\client\\src",
+    "\\client\\src\\components",
+    "\\client\\src\\components\\with-spinner"
   ],
-  "SelectedNode": "\\server.js",
+  "SelectedNode": "\\client\\src\\components\\cart-item",
   "PreviewInSolutionExplorer": false
 }
